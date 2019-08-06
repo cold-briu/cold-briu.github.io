@@ -1,0 +1,8 @@
+.portfolio-container{
+    background: var(--color-bg);
+    height: 100vh;
+}
+.portfolio-container h1{
+font-weight: 200;
+font-size: 11rem;
+}

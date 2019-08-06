@@ -1,0 +1,24 @@
+
+.resume-title{
+    color:var(--color-bg);
+    font-family: var(--serif-font);
+
+}
+
+.section-title{
+    color:var(--color-bg);
+
+}
+.section-title i{
+    margin:5%;
+    font-size: 2rem;
+}
+.timelin-title{
+    font-weight: 200;
+
+}
+
+.resume-card{
+    background:var(--color-bg);
+
+}

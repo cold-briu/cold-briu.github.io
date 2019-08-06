@@ -1,0 +1,13 @@
+
+.bg-dark{
+    background-color: var(--color-dark);
+  }
+  
+  
+  .navbar-brand{
+    font-family: var(--serif-font);
+    font-weight: 500;
+    font-size: 3vw;
+    margin:0 auto;
+    padding: 0;
+  }

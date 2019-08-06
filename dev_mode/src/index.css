@@ -1,0 +1,39 @@
+body {
+  width: 100%;
+  margin:0;
+  padding:0;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-bg: rgb(251,249,247);
+  --color-dark :#212427;
+  --color-light: rgb(255, 255, 255);
+  --serif-font: 'EB Garamond', serif;
+  --sans-font: 'Open Sans', sans-serif;
+
+  background-color: var(--color-dark);
+  color: var(--color-dark);
+
+  font-size: 12px;
+
+  /* perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-y:scroll;
+  overflow-x: hidden;  */
+
+
+  background-position: top;
+  /* background-image: url('./components/01_HeroComponent/paint.jpg'); */
+  background-repeat: repeat-x;
+  background-size: auto 60%;
+
+  z-index: 30;    
+}
+
+h2{
+  font-size: 2.3rem;
+}

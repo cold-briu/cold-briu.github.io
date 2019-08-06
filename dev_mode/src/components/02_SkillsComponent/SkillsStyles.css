@@ -1,0 +1,20 @@
+.skills-container{
+    margin: 0 auto;
+    padding: 5% 5% 0 5% ;
+
+    text-align: center;
+
+  }
+
+  .skills-container{
+  padding-top: 2%;
+  }
+  
+  .skills-title{
+    width: 100%;
+    color: var(--color-light);
+    font-family: var(--serif-font);
+    margin: 5% 0;
+    z-index: 3;
+  }
+  

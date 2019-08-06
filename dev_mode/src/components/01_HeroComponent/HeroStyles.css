@@ -1,0 +1,92 @@
+.btn{
+    margin-right: 2%;
+  }
+  
+  
+  
+  .hero{
+    width: 100%;
+    height: 75vh;
+    background-color: var(--color-bg);
+    color: var(--color-dark);
+    padding: 10vw;
+
+  }
+  
+
+
+  
+  .hero-text{
+    font-family: 'EB Garamond', serif;
+    z-index: 3;
+    padding: 0;
+    font-size: 12px;
+
+  }
+  .hero h1{
+    font-weight: 100;
+    font-size: 3.5rem;
+    margin: 0;
+  }
+
+  .hero-text h5{
+    font-weight: 100;
+    margin: 0 0 4% 0;
+  
+  }
+  .hero-text p{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .profile-wrapper{
+    margin: 0 1%;
+  }
+
+  .profile-wrapper p{
+    margin-bottom: 3%;
+  }
+
+  .links-container{
+    border-top: 1px solid var(--color-dark);
+    margin-top: 5%;
+    padding-top: 5%;
+  }
+
+  .links-container span{
+    font-weight: 400;
+    font-size: .7rem;
+    font-family: var(--sans-font);
+    color: var(--color-dark);
+
+  }
+
+  .links-container i{
+    margin: 0 5% 0 0;
+    color: var(--color-dark);
+  }
+
+  .links-container i:hover{
+    color:rgb(56, 118, 194);
+  }
+  
+
+  
+    
+  /* .hero-parallax::before{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+  
+    content: "";
+    position: absolute; 
+    display: block;
+  
+    background-image: url("./components/Hero/paper-bg.jpg");
+    z-index: -1;
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(3);
+   
+  } */
+  

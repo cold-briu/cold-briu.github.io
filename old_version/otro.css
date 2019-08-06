@@ -1,0 +1,74 @@
+<header>
+  <h1 id="title">
+      Sample Survey
+  </h1>
+  <p id="description">
+    Health care form
+  </p>
+</header>
+
+<main>
+  <form id="survey-form">
+    <div>
+       <label id="name-label" for="name"  id="name-label"
+              >·</label>
+          <input type="text"
+            id="name"
+           placeholder="Dame tu nombre">
+    </div>
+    <div>
+       <label id="name-label" for="email"  id="email-label"
+              >·</label>
+          <input type="text"
+            id="email"
+           required placeholder="Dame tu correo">
+    </div>
+    <div>
+      <label id="name-label" for="number"  id="number-label"
+             >·</label>
+      <input type="number"  id="number" min="18" max="90" placeholder="¿Cuál es tu edad?">
+    </div> 
+    <div>
+       <label id="dropdown-label" for="dropdown" 
+             >·</label>
+      <select id="dropdown">
+        <option disabled value>¿Cómo se siente?</option>
+        <option value="healthy">Saludable</option>
+        <option value="average">Regular</option>
+        <option value="sick">Enfermo</option>
+        <option value="idk">No sé</option>
+    </select>
+    </div>
+ 
+
+    
+  <div id="radios">
+       <label id="radio-label" for="ul">
+         Seleccione el régimen de su pertenencia:</label>
+     <ul style="list-style: none;">
+       
+       <li class="radio">
+            <input name="radio-buttons" value="1"  type="radio" >         
+            <label>Contributivo</label>
+       </li>
+       <li class="radio">
+          <input name="radio-buttons" value="2"  type="radio"  >
+          <li ><label>Subsidiado</label>
+       </li>
+       <li class="radio">
+          <input name="radio-buttons" value="3"  type="radio" >
+          <li ><label>No sabe</label>
+       </li>
+        </ul>
+    </div>
+    <div>
+      <label for="comments">Déjanos tus sugerencias</label>
+      
+       <textarea id="comments" placeholder="Yo opino..."></textarea>
+
+    </div>
+    
+    <button id="submit" >Enviar</button>
+
+  </form>
+</main>
