@@ -17,12 +17,12 @@ const Skills = () => (
             name="Html5"
         />
         <Card
-            icon="fab fa-css3-alt fa-3x"
-            name="Css3"
-        />
-        <Card
             icon="fab fa-js fa-3x"
             name="JavaScript"
+        />
+        <Card
+            icon="fab fa-css3-alt fa-3x"
+            name="Css3"
         />
         <Card
             icon="fab fa-node-js fa-3x"

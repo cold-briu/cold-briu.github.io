@@ -4,7 +4,7 @@ import './ResumeComponentStyles.css';
 
 const Resume = () => (
 
-    <div className="row resume-container p-3">
+    <div className="row resume__container p-3">
 
         <div className="col-12 text-center my-5 ">
             <h2 className="resume-title my-3">Resume</h2>

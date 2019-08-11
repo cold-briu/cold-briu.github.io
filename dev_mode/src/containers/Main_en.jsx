@@ -9,22 +9,24 @@ import Portfolio from '../components/04_Portfolio/PortfolioComponent';
 // import Contact from '../components/Contact/ContactComponent';
 
 const MainEn = () => ( //{ children }
-
-    <div className="container-fluid w-100 p-0 m-0" >
-
-
+    <>
         <Navbar />
-        <Hero />
-        <Skills />
-        <Resume />
-        <Portfolio />
-        {/*
+
+        <div className="containe-fluid w-100 p-0 m-0" >
+
+
+            <Hero />
+            <Skills />
+            <Resume />
+            <Portfolio />
+            {/*
         <Counter />
         <Contact /> */}
 
 
 
-    </div>
+        </div>
+    </>
 );
 
 export default MainEn

@@ -1,4 +1,8 @@
+.resume__container{
+    
+    margin: 0 auto;
 
+}
 .resume-title{
     color:var(--color-bg);
     font-family: var(--serif-font);
