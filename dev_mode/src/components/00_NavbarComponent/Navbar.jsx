@@ -19,26 +19,35 @@ const Navbar = () => (
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="#main">Home</a>
+                        <a className="nav-link" href="#home">Home</a>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="#place-time">Skills</a>
+                        <a className="nav-link" href="#about">Skills & Resume</a>
+                    </li>
+
+                    <li className="nav-item">
+                        <a className="nav-link" href="#graphic">Graphic Design</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#conviertete-en-orador">Resume</a>
+                        <a className="nav-link" href="#web">Web Projects</a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#conviertete-en-orador">Projects</a>
-                    </li>
-                    <li className="nav-item contacto">
-                        <a className="nav-link text-ac-geek" href="/" data-toggle="modal" data-target="#modalCompra">Contact</a>
-                    </li>
+
 
                 </ul>
+                <a href="https://wa.me/573113391423"
+                    target="blank">
+
+
+                    <button className="btn btn-outline-success header__contact">
+                        Contact
+                            </button>
+
+
+                </a>
             </div>
-        </div>
-    </nav>
+        </div >
+    </nav >
 
 
 

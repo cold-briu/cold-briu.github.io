@@ -4,7 +4,7 @@ class Card extends Component {
 
     render() {
         return (
-            <div className="col col-lg-3 col-md-3 p-1">
+            <div className="col col-6 col-md-3 p-1">
 
                 <span className="badge badge-light">
                     <div className="badge-container" >

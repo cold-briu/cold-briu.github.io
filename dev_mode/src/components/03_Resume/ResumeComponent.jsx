@@ -2,6 +2,8 @@ import React from 'react';
 import ResumeCard from './ResumeCardComponent';
 import './ResumeComponentStyles.css';
 
+const cv_url = 'https://drive.google.com/file/d/1ELZi7fgqOGXdpmtUkXjvMtbe_VZUKk-c/view'
+
 const Resume = () => (
 
     <div className="row resume__container p-3">
@@ -23,7 +25,7 @@ const Resume = () => (
 
                     <ResumeCard
                         header="IT and media contents"
-                        link="htts://instagram.com/proyectoraices"
+                        link="https://instagram.com/proyectoraices"
                         sub="Proyecto Raíces"
                         time="Jan 2017 - May 2019"
                     />
@@ -62,7 +64,7 @@ const Resume = () => (
 
                 <ResumeCard
                     header="Front-End Developement"
-                    link="https://academiageek.co"
+                    link="http://academiageek.co"
                     sub="Academia Geek"
                     time="2019 - current"
                 />
@@ -76,7 +78,7 @@ const Resume = () => (
 
                 <ResumeCard
                     header="Sociology"
-                    link="/"
+                    link="http://www.udea.edu.co"
                     sub="Universidad de Antioquia"
                     time="2019 - current"
                 />
@@ -87,7 +89,7 @@ const Resume = () => (
 
 
         <div className="col-12 text-center my-5">
-            <a href="https://drive.google.com/open?id=1eww07mDjZ2Ya83sMNKM0wszV98tCIXqU" className="btn btn-dark"  >
+            <a href={cv_url} className="btn btn-dark"  >
                 <i className="icon-paper-clip"></i>Download cv</a>
         </div>
 
