@@ -16,7 +16,7 @@ const Resume = () => (
 
             <div className=" experience">
                 <section className="section-title text-center col-12 mb-5">
-                    <i class="far fa-clock">
+                    <i className="far fa-clock">
 
                     </i>
                     <h4 className="timelin-title">Experience</h4>
@@ -56,14 +56,14 @@ const Resume = () => (
 
             <section className="section-title text-center col-12 mb-5">
 
-                <i class="fas fa-graduation-cap"></i>
+                <i className="fas fa-graduation-cap"></i>
                 <h4 className="timelin-title">Education</h4>
             </section>
 
             <ul className="resume-card timeline p-5">
 
                 <ResumeCard
-                    header="Front-End Developement"
+                    header="FullStackDevelopement"
                     link="http://academiageek.co"
                     sub="Academia Geek"
                     time="2019 - current"

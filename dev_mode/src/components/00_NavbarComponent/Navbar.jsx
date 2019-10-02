@@ -5,7 +5,7 @@ const Navbar = () => (
 
 
 
-    <nav id="header" className="p-0 navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav id="header" className="p-0 navbar navbar-expand-lg navbar-dark bg-dark sticky-top animated fadeInDown">
         <div className="container">
 
             <a className="navbar-brand" href="/">

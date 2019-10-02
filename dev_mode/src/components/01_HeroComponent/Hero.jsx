@@ -11,9 +11,9 @@ const Hero = () => (
             <div className="hero" id="home">
 
 
-                <div className="hero-text col-lg-8 col-md-8 " >
+                <div className="hero-text col-lg-8 col-md-8 animated fadeInLeft" >
                     <h1>Andrés Fernández</h1>
-                    <h5>Graphic Design & Frontend Developement.</h5>
+                    <h5>Graphic Design & FullStack Developement.</h5>
 
 
                     <div className="profile-wrapper">
@@ -36,7 +36,7 @@ const Hero = () => (
                         <div className="col-6 col-lg-3">
                             <a href="https://wa.me/573113391423"
                                 target="blank">
-                                <button type="button" class="btn btn-outline-success w-100">
+                                <button type="button" className="btn btn-outline-success w-100">
                                     <i className="fab fa-whatsapp "></i>
                                     <span> Contact me!</span>
                                 </button>
@@ -46,7 +46,7 @@ const Hero = () => (
                         <div className="col-6 col-lg-3 ">
                             <a href="https://www.linkedin.com/in/andr%C3%A9s-fern%C3%A1ndez-467735168/"
                                 target="blank">
-                                <button type="button" class="btn btn-outline-primary w-100 mb-3">
+                                <button type="button" className="btn btn-outline-primary w-100 mb-3">
                                     <i className="fab fa-linkedin-in "></i>
                                     <span> LinkedIn</span>
                                 </button>
@@ -56,7 +56,7 @@ const Hero = () => (
                         <div className="col-6 col-lg-3">
                             <a href={cv_url}
                                 target="blank">
-                                <button type="button" class="btn btn-outline-warning w-100 px-2">
+                                <button type="button" className="btn btn-outline-warning w-100 px-2">
                                     <i className="far fa-address-card "> </i>
                                     <span> Download CV</span>
                                 </button>
@@ -66,7 +66,7 @@ const Hero = () => (
                         <div className="col-6 col-lg-3">
                             <a href="https://github.com/cold-briu"
                                 target="blank">
-                                <button type="button" class="btn btn-outline-info w-100">
+                                <button type="button" className="btn btn-outline-info w-100">
                                     <i className="fab fa-github">
                                         <span> GitHub</span></i>
                                 </button>
